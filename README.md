@@ -53,6 +53,8 @@ Apart from coding, I enjoy connecting languages and cultures—I'm a native Pers
 ## Currently Learning
 ![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=for-the-badge&logo=webassembly&logoColor=white)
 ![IoT](https://img.shields.io/badge/IoT-ESP32-green?style=for-the-badge&logo=esp32&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Haxe](https://img.shields.io/badge/Haxe-EA8220?style=for-the-badge&logo=haxe&logoColor=white)
 
 ---
 
