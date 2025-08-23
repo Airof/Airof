@@ -1,45 +1,55 @@
+# Hi, I'm Airof
 
+<!-- style for icons -->
+<style>
+.Icon {
+  width: 40px;
+  height: 40px;
+}
+</style>
+
+## Computer Science
+
+### Know
 <p>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="40" height="40"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="40" height="40"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="40" height="40"/>
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/godot/godot-original.svg" width="40" height="40"/>
-<img src="https://www.svgrepo.com/show/373830/matlab.svg" width="40" height="40"/>
-<img src="https://www.svgrepo.com/show/354123/chip.svg" width="40" height="40"/>
-<img src="https://www.svgrepo.com/show/331626/cpu.svg" width="40" height="40"/>
+  <img src="icons/programming languages/C.svg" class="Icon" alt="C"/>
+  <img src="icons/programming languages/cpp.svg" class="Icon" alt="C++"/>
+  <img src="icons/programming languages/python.svg" class="Icon" alt="Python"/>
+  <img src="icons/programming languages/bash.svg" class="Icon" alt="Bash"/>
+  <img src="icons/programming languages/asm.svg" class="Icon" alt="ASM"/>
+  <img src="iconsprogramminglanguagesjavascriptsvg"class="Icon"alt="JavaScript"/>
+  <img src="icons/programming languages/vhdl.svg" class="Icon" alt="VHDL"/>
 </p>
 
-next
-<!-- Haxe -->
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/haxe/haxe-original.svg" width="40" height="40"/>
-<!-- C# -->
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="40" height="40"/>
-<!-- Go -->
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" width="40" height="40"/>
-<!-- Rust -->
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" width="40" height="40"/>
+### Want to Learn
+<p>
+  <img src="icons/programming languages/hexe.svg" class="Icon" alt="Hexe"/>
+  <img src="icons/programming languages/GO.svg" class="Icon" alt="Go"/>
+  <img src="icons/programming languages/Rust.svg" class="Icon" alt="Rust"/>
+  <img src="icons/programming languages/C-sharp.svg" class="Icon" alt="C-sharp"/>
+</p>
 
-electric
-<!-- Ladder Diagram (using logic gate/ladder icon as placeholder) -->
-<img src="https://www.svgrepo.com/show/306514/ladder.svg" width="40" height="40"/>
-<!-- Function Block Diagram (use generic flowchart/blocks icon) -->
-<img src="https://www.svgrepo.com/show/332569/flowchart.svg" width="40" height="40"/>
+### Abilities
+<p>
+  <img src="icons/apps/godot.svg" class="Icon" alt="Godot"/>
+  <img src="icons/apps/matlab.svg" class="Icon" alt="Matlab"/>
+</p>
 
+## Embedded Systems & Automation
+<p align-item="center">
+  <img src="icons/cctv-svgrepo-com.svg" class="Icon" />
+  analog and IP(digital) CCTV 
 
-test
-<!-- Ladder Diagram -->
-<img src="https://www.svgrepo.com/show/9453810/ladder-diagram.svg" alt="Ladder Diagram" width="40" height="40"/>
+  <img src="icons/energy-industry-energetic-thunderbolt-power-svgrepo-com.svg" class="Icon">
+  Industrial Electricity: Electrical system design and monitoring.
 
-<!-- Function Block Diagram (FBD) -->
-<img src="https://www.svgrepo.com/show/486681/function-block-library.svg" alt="Function Block Diagram" width="40" height="40"/>
+  <img src="icons/electricity-svgrepo-com.svg" class="Icon">
+  House Electricity: Home wiring and safety systems.
 
-<!-- VHDL -->
-<img src="https://www.svgrepo.com/show/374164/vhdl.svg" alt="VHDL" width="40" height="40"/>
+  <img src="icons/smart-home-svgrepo-com.svg" class="Icon">
+  **Smart Home**: Automation using ESP32 and IoT devices.
+  Industrial Automation: PLC programming and VHDL for FPGA designs.
+</p>
 
-<!-- 8086 Assembly -->
-<img src="https://www.svgrepo.com/show/373445/assembly.svg" alt="8086 Assembly" width="40" height="40"/>
-
-
+## Personal
+<!-- Add your personal content here later, e.g., hobbies, interests, or bio. For example: "I enjoy hiking and reading sci-fi books." -->
