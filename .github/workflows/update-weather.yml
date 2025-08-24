@@ -1,0 +1,36 @@
+name: Update Weather (Shiraz)
+
+on:
+  schedule:
+    - cron: "*/60 * * * *"   # every 60 minutes
+  workflow_dispatch: {}       # allow manual run
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Use Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Update README with Shiraz weather
+        run: node scripts/update-weather.mjs
+
+      - name: Commit & push if changed
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: update weather (Shiraz)"
+            git push
+          else
+            echo "No changes to commit."
+          fi

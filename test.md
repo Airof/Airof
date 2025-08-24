@@ -10,6 +10,10 @@
   <img src="gif/tumbleweed.gif" alt="rango">
 </div>
 
+<!-- WEATHER:START -->
+<!-- WEATHER:END -->
+
+
 ## Computer Science
   
 
@@ -184,3 +188,5 @@
 ## stats 
 ### pinned project
 ### stats card
+
+### weather and images for weather
