@@ -7,6 +7,7 @@
 </div>
 
 <!-- WEATHER:START -->
+🌙 Night Owl Mode from **Shiraz** — **27°C**, ☀️ Clear · 💨 15 km/h (WNW) · _Updated: 2025-08-24 23:45 Asia/Tehran_
 <!-- WEATHER:END -->
 
 
@@ -25,24 +26,31 @@
 </p>
 
 ### Technical Languages
-<p>
-  <span style="display:inline-block; text-align:center; margin: 0 10px;">
-    <img src="icons/programming languages/vhdl.svg" width="40" alt="VHDL"><br>
-    VHDL
-  </span>
-  <span style="display:inline-block; text-align:center; margin: 0 10px;">
-    <img src="icons/programming languages/matlab.svg" width="40" alt="Matlab"><br>
-    Matlab
-  </span>
-  <span style="display:inline-block; text-align:center; margin: 0 10px;">
-    <img src="icons/programming languages/ladder.svg" width="40" alt="ladder"><br>
-    Ladder
-  </span>
-  <span style="display:inline-block; text-align:center; margin: 0 10px;">
-    <img src="icons/programming languages/fbd.svg" width="40" alt="FBD"><br>
-    FBD
-  </span>
+<!-- Technical Languages -->
+<p align="center">
+<table>
+  <tr>
+    <td align="center" style="padding:0 14px;">
+      <img src="icons/programming languages/vhdl.svg" width="40" alt="VHDL"><br>
+      <sub><b>VHDL</b></sub>
+    </td>
+    <td align="center" style="padding:0 14px;">
+      <img src="icons/programming languages/matlab.svg" width="40" alt="Matlab"><br>
+      <sub><b>Matlab</b></sub>
+    </td>
+    <td align="center" style="padding:0 14px;">
+      <img src="icons/programming languages/ladder.svg" width="40" alt="Ladder"><br>
+      <sub><b>Ladder</b></sub>
+    </td>
+    <td align="center" style="padding:0 14px;">
+      <img src="icons/programming languages/fbd.svg" width="40" alt="FBD" style="background:#fff;"><br>
+      <sub><b>FBD</b></sub>
+    </td>
+  </tr>
+</table>
 </p>
+
+
 
 
 ### Databases
