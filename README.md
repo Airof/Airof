@@ -3,9 +3,7 @@
 <div align="center">
   <img src="gif/tumbleweed.gif" alt="rango">
   <img src="gif/tumbleweed.gif" alt="rango">
-  <img src="gif/tumbleweed.gif" alt="rango">
   <img src="gif/ezgif-15f88be964cccc.gif" alt="rango">
-  <img src="gif/tumbleweed.gif" alt="rango">
   <img src="gif/tumbleweed.gif" alt="rango">
   <img src="gif/tumbleweed.gif" alt="rango">
 </div>
