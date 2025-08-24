@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=ink+free&size=28&letterSpacing=0.3rem&pause=1000&color=1CF1FF&vCenter=true&width=435&lines=%23Hi+I'm+Airof!;%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB%F0%9F%93%96%F0%9F%8E%AE%F0%9F%8C%90%E2%9A%A1;%F0%9F%97%A3%EF%B8%8F%F0%9F%8C%8D+%F0%9F%87%AB%F0%9F%87%A6+%F0%9F%87%AF%F0%9F%87%B5+%F0%9F%87%AA%F0%9F%87%B3)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=ink+free&size=28&letterSpacing=0.3rem&pause=1000&color=1CF1FF&vCenter=true&width=435&lines=%23Hi+there,+I'm+Airof+👋;%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB%F0%9F%93%96%F0%9F%8E%AE%F0%9F%8C%90%E2%9A%A1;%F0%9F%97%A3%EF%B8%8F%F0%9F%8C%8D+%F0%9F%87%AB%F0%9F%87%A6+%F0%9F%87%AF%F0%9F%87%B5+%F0%9F%87%AA%F0%9F%87%B3)](https://git.io/typing-svg)
 
 <div align="center">
   <img src="gif/tumbleweed.gif" alt="rango">
@@ -11,8 +11,9 @@
 </div>
 
 ## Computer Science
+  
 
-### programming languages
+### Programming Languages
 <p>
   <img src="icons/programming languages/C.svg" width="40" height="40" alt="C">
   <img src="icons/programming languages/cpp.svg" width="40" height="40" alt="C++">
@@ -23,7 +24,7 @@
 
 </p>
 
-### technical lnaguages
+### Technical Languages
 <p>
   <span style="display:inline-block; text-align:center; margin: 0 10px;">
     <img src="icons/programming languages/vhdl.svg" width="40" alt="VHDL"><br>
@@ -35,7 +36,7 @@
   </span>
   <span style="display:inline-block; text-align:center; margin: 0 10px;">
     <img src="icons/programming languages/ladder.svg" width="40" alt="ladder"><br>
-    ladder
+    Ladder
   </span>
   <span style="display:inline-block; text-align:center; margin: 0 10px;">
     <img src="icons/programming languages/fbd.svg" style="background-color: white" width="40" alt="FBD"><br>
@@ -44,17 +45,17 @@
 </p>
 
 
-### databases
+### Databases
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
 
-### Game Enginges
+### Game Engines
 <p >
   <img src="icons/game-dev/godot.svg" width="40" height="40" alt="Godot">
-  <img src="icons/game-dev/Ren'Py.svg" width="40" height="40" alt="ren'py">
+  <img src="icons/game-dev/Ren'Py.svg" width="40" height="40" alt="Ren'Py">
 </p>
 
 ### Frameworks
@@ -101,21 +102,72 @@
 
 
 
+
 ### Skills
 
-## Electronics & Electrical Engineering
-<p>
-  
-  <img src="icons/cctv-svgrepo-com.svg" width="40" height="40" alt="CCTV">**analog and IP(digital) CCTV**
-  
-  <img src="icons/energy-industry-energetic-thunderbolt-power-svgrepo-com.svg" width="40" height="40" alt="Industrial Electricity"> **Industrial Electricity**
-  
-  <img src="icons/electricity-svgrepo-com.svg" width="40" height="40" alt="House Electricity"> **House Electricity**
-  
-  <img src="icons/smart-home-svgrepo-com.svg" width="40" height="40" alt="Smart Home"> **Smart Home**
-  
-  <img src="icons/automation-svgrepo-com.svg" width="40" height="40" alt="Smart Home"> **Industrial Automation**: PLC programming and VHDL for FPGA designs.
-  </p>
+<!-- Soft / Professional Skills -->
+[![Problem Solving](https://img.shields.io/badge/Problem%20Solving-4CAF50?style=plastic)](#)
+[![Algorithm Design](https://img.shields.io/badge/Algorithm%20Design-F44336?style=plastic)](#)
+[![System Architecture](https://img.shields.io/badge/System%20Architecture-2196F3?style=plastic)](#)
+[![Version Control](https://img.shields.io/badge/Version%20Control-795548?style=plastic)](#)
+[![Agile/Scrum](https://img.shields.io/badge/Agile%2FScrum-9C27B0?style=plastic)](#)
+
+<!-- Computer Science Concepts -->
+[![Data Structures](https://img.shields.io/badge/Data%20Structures-FF9800?style=plastic)](#)
+[![OOP](https://img.shields.io/badge/OOP-3F51B5?style=plastic)](#)
+[![Low-Level Programming](https://img.shields.io/badge/Low-Level%20Programming-607D8B?style=plastic)](#)
+[![Embedded Systems](https://img.shields.io/badge/Embedded%20Systems-009688?style=plastic)](#)
+[![Networking](https://img.shields.io/badge/Networking-00BCD4?style=plastic)](#)
+
+<!-- Electrical / Robotics Concepts -->
+[![Sensor Integration](https://img.shields.io/badge/Sensor%20Integration-FF5722?style=plastic)](#)
+[![Actuator Control](https://img.shields.io/badge/Actuator%20Control-795548?style=plastic)](#)
+[![PCB Basics](https://img.shields.io/badge/PCB%20Basics-FF9800?style=plastic)](#)
+[![Robotics Kinematics](https://img.shields.io/badge/Robotics%20Kinematics-9C27B0?style=plastic)](#)
+[![PLC Programming](https://img.shields.io/badge/PLC%20Programming-E91E63?style=plastic)](#)
+
+<!-- Other Skills / Hobbies -->
+[![Game Design](https://img.shields.io/badge/Game%20Design-00BCD4?style=plastic)](#)
+[![UI/UX Design](https://img.shields.io/badge/UI%2FUX%20Design-3F51B5?style=plastic)](#)
+[![Pixel Art](https://img.shields.io/badge/Pixel%20Art-FF5722?style=plastic)](#)
+[![Languages Spoken](https://img.shields.io/badge/Languages-1ABC9C?style=plastic)](#)
+
+
+## Electronics & Electrical Engineering:
+
+<p align="center">
+<table>
+  <tr>
+    <td align="center" style="padding:0 18px;">
+      <img src="icons/cctv-svgrepo-com.svg" width="48" alt="CCTV">
+    </td>
+    <td align="center" style="padding:0 18px;">
+      <img src="icons/energy-industry-energetic-thunderbolt-power-svgrepo-com.svg" width="48" alt="Industrial Electricity">
+    </td>
+    <td align="center" style="padding:0 18px;">
+      <img src="icons/electricity-svgrepo-com.svg" width="48" alt="House Electricity">
+    </td>
+    <td align="center" style="padding:0 18px;">
+      <img src="icons/smart-home-svgrepo-com.svg" width="48" alt="Smart Home">
+    </td>
+    <td align="center" style="padding:0 18px;">
+      <img src="icons/automation-svgrepo-com.svg" width="48" alt="Industrial Automation">
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><a href="#"><img src="https://img.shields.io/badge/CCTV-4CAF50?style=plastic" height="30"></a></td>
+    <td align="center"><a href="#"><img src="https://img.shields.io/badge/Industrial%20Electricity-2196F3?style=plastic" height="30"></a></td>
+    <td align="center"><a href="#"><img src="https://img.shields.io/badge/House%20Electricity-FF9800?style=plastic" height="30"></a></td>
+    <td align="center"><a href="#"><img src="https://img.shields.io/badge/Smart%20Home-00BCD4?style=plastic" height="30"></a></td>
+    <td align="center"><a href="#"><img src="https://img.shields.io/badge/Industrial%20Automation-9C27B0?style=plastic" height="30"></a></td>
+  </tr>
+</table>
+</p>
+
+
+
+
+
 
 ## Personal
 
