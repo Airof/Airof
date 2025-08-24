@@ -43,7 +43,7 @@
     Ladder
   </span>
   <span style="display:inline-block; text-align:center; margin: 0 10px;">
-    <img src="icons/programming languages/fbd.svg" style="background-color: white" width="40" alt="FBD"><br>
+    <img src="icons/programming languages/fbd.svg" width="40" alt="FBD"><br>
     FBD
   </span>
 </p>
