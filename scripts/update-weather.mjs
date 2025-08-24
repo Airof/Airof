@@ -86,7 +86,8 @@ function renderLine(data) {
 
   const timestamp = dt.toISOString().replace("T", " ").slice(0, 16);
 
-  return `${greet} from **Shiraz** — **${temp}°C**, ${wtext} · 💨 ${windKmh} km/h (${compass(windDir)}) · _Updated: ${timestamp} ${tz}_`;
+  return `${greet} from **Shiraz** — **${temp}°C**, ${wtext} · 💨 ${windKmh} km/h (${compass(windDir)})`;
+  // return `${greet} from **Shiraz** — **${temp}°C**, ${wtext} · 💨 ${windKmh} km/h (${compass(windDir)}) · _Updated: ${timestamp} ${tz}_`;
 }
 
 function updateReadme(line) {
