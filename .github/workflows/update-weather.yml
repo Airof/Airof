@@ -28,6 +28,12 @@ jobs:
         env:
           ANILIST_USERNAME: Airof
 
+      - name: Pull latest changes
+        run: |
+          git config pull.rebase true
+          git pull --no-edit origin main || true
+
+
       - name: Commit & push if changed
         run: |
           if [[ -n "$(git status --porcelain)" ]]; then
