@@ -171,3 +171,10 @@
   </tr>
 </table>
 </p>
+
+
+## hobbies
+## 📊 Anime Stats
+<!-- ANILIST:START -->
+Loading…
+<!-- ANILIST:END -->
