@@ -12,8 +12,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout (full history)
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # important! allows pull/rebase
 
       - name: Use Node.js 20
         uses: actions/setup-node@v4
@@ -28,28 +30,15 @@ jobs:
         env:
           ANILIST_USERNAME: Airof
 
-      - name: Pull latest changes and resolve conflicts
-        run: |
-          git config pull.rebase true
-          git fetch origin
-          git pull origin main --rebase || {
-            echo "Merge conflict detected. Attempting to resolve by keeping remote changes."
-            git rebase --abort || true
-            git fetch origin
-            git reset --hard origin/main
-            # Re-run the update scripts to ensure latest data
-            node scripts/update-weather.mjs
-            node scripts/update-anilist.mjs
-          }
-
       - name: Commit & push if changed
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git pull --rebase origin main || true
             git add README.md
             git commit -m "chore: update weather (Shiraz) & AniList stats"
-            git push
+            git push origin main
           else
             echo "No changes to commit."
           fi
