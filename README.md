@@ -176,17 +176,6 @@
 ## hobbies
 ## 📊 Anime Stats
 <!-- ANILIST:START -->
-
-**Profile:** [Airof](https://anilist.co/user/7379629)
-
-| Metric | Anime | Manga |
-|---|---:|---:|
-| Count | 499 | 29 |
-| Episodes watched | 12,822 | — |
-| Minutes watched | 314,812 | — |
-| ~Days watched | 218.6 | — |
-| Mean score | 73.52 | 84.8 |
-| Chapters read | — | 7,604 |
-| Volumes read | — | 604 |
-
+Loading…
 <!-- ANILIST:END -->
+
