@@ -7,7 +7,7 @@
 </div>
 
 <!-- WEATHER:START -->
-🌙 Night Owl Mode from **Shiraz** — **23°C**, ☀️ Clear · 💨 17 km/h (WNW)
+🌙 Night Owl Mode from **Shiraz** — **22°C**, ☀️ Clear · 💨 17 km/h (WNW)
 <!-- WEATHER:END -->
 
 
@@ -177,7 +177,7 @@
 ## 📊 Anime Stats
 <!-- ANILIST:START -->
 
-[![AniList Profile](https://img.shields.io/badge/AniList-Airof-02A9FF?style=for-the-badge&logo=anilist&logoColor=white)](https://anilist.co/user/7379629)
+[![AniList Profile](https://img.shields.io/badge/AniList-Airof-02A9FF?style=plastic&logo=anilist&logoColor=white)](https://anilist.co/user/7379629)
 
 ### 🎬 Anime Statistics
 
