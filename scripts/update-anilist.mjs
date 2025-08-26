@@ -58,7 +58,6 @@ function renderBlock(data) {
   const a = u.statistics?.anime ?? {};
   const m = u.statistics?.manga ?? {};
   const daysWatched = (a.minutesWatched ?? 0) / 60 / 24;
-  const fmt = n => new Intl.NumberFormat('en-US').format(n ?? 0);
 
   return [
     '',
@@ -71,7 +70,7 @@ function renderBlock(data) {
     `| Count | ${fmt(a.count)} |`,
     `| Episodes watched | ${fmt(a.episodesWatched)} |`,
     `| Minutes watched | ${fmt(a.minutesWatched)} |`,
-    `| ~Days watched | ${daysWatched.toFixed(1)} |`,
+    `| ~Days watched | ${Number.isFinite(daysWatched) ? daysWatched.toFixed(1) : '0.0'} |`,
     `| Mean score | ${fmt(a.meanScore)} |`,
     '',
     '### 📚 Manga Statistics',
@@ -86,6 +85,35 @@ function renderBlock(data) {
   ].join('\n');
 }
 
+async function updateReadme(block) {
+  let readme;
+  try {
+    readme = await readFile(README_PATH, 'utf8');
+  } catch {
+    // If README doesn't exist, create one with the section.
+    const fresh = `# Profile\n\n## 📊 Anime Stats\n${START}\n${block}\n${END}\n`;
+    await writeFile(README_PATH, fresh, 'utf8');
+    console.log('README created with AniList section.');
+    return;
+  }
+
+  if (!readme.includes(START) || !readme.includes(END)) {
+    // Append section if markers are missing
+    const next = `${readme.trim()}\n\n## 📊 Anime Stats\n${START}\n${block}\n${END}\n`;
+    await writeFile(README_PATH, next, 'utf8');
+    console.log('Inserted AniList section and updated README.');
+    return;
+  }
+
+  const pattern = new RegExp(`${START}[\\s\\S]*?${END}`);
+  const next = readme.replace(pattern, `${START}\n${block}\n${END}`);
+  if (next !== readme) {
+    await writeFile(README_PATH, next, 'utf8');
+    console.log('README updated with AniList stats.');
+  } else {
+    console.log('No changes to README (AniList stats unchanged).');
+  }
+}
 
 (async () => {
   const data = await fetchAniList(USERNAME);
