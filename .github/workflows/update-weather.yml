@@ -1,8 +1,8 @@
-name: Update Weather (Shiraz)
+name: Update Weather & AniList (Shiraz)
 
 on:
   schedule:
-    - cron: "*/60 * * * *"   # every 60 minutes
+    - cron: "0 * * * *"   # every hour
   workflow_dispatch: {}       # allow manual run
 
 permissions:
@@ -23,13 +23,18 @@ jobs:
       - name: Update README with Shiraz weather
         run: node scripts/update-weather.mjs
 
+      - name: Update README with AniList stats
+        run: node scripts/update-anilist.mjs
+        env:
+          ANILIST_USERNAME: Airof
+
       - name: Commit & push if changed
         run: |
           if [[ -n "$(git status --porcelain)" ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add README.md
-            git commit -m "chore: update weather (Shiraz)"
+            git commit -m "chore: update weather (Shiraz) & AniList stats"
             git push
           else
             echo "No changes to commit."

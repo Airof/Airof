@@ -102,11 +102,13 @@
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=plastic&logo=docker&logoColor=white)](#) 
 [![CI/CD](https://img.shields.io/badge/CI%2FCD-6A1B9A?style=plastic)](#)
 
-**Simulation / Design / Embedded:**&nbsp;&nbsp;[![ModelSim](https://img.shields.io/badge/ModelSim-FF5722?style=plastic)](#) 
+**Simulation / Design / Embedded:**  
+[![ModelSim](https://img.shields.io/badge/ModelSim-FF5722?style=plastic)](#) 
+[![Proteus](https://img.shields.io/badge/Proteus-1F62A0?style=plastic)](#) 
+[![Inkscape](https://img.shields.io/badge/Inkscape-000000?style=plastic&logo=inkscape&logoColor=white)](#) 
 [![Arduino IDE](https://img.shields.io/badge/Arduino-00979D?style=plastic&logo=arduino&logoColor=white)](#) 
 [![PlatformIO](https://img.shields.io/badge/PlatformIO-2C3E50?style=plastic&logo=platformio&logoColor=white)](#) 
-[![ESP-IDF](https://img.shields.io/badge/ESP-IDF-0078D7?style=plastic)](#)
-
+[![ESP-IDF](https://img.shields.io/badge/ESP--IDF-0078D7?style=plastic)](#) 
 
 
 
@@ -134,6 +136,7 @@
 [![PCB Basics](https://img.shields.io/badge/PCB%20Basics-FF9800?style=plastic)](#)
 [![Robotics Kinematics](https://img.shields.io/badge/Robotics%20Kinematics-9C27B0?style=plastic)](#)
 [![PLC Programming](https://img.shields.io/badge/PLC%20Programming-E91E63?style=plastic)](#)
+[![Boolean Logic Design](https://img.shields.io/badge/Boolean%20Logic-673AB7?style=plastic)](#)
 
 <!-- Other Skills / Hobbies -->
 [![Game Design](https://img.shields.io/badge/Game%20Design-00BCD4?style=plastic)](#)
@@ -181,8 +184,21 @@
 ## Personal
 
 ### curently learning
+[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=plastic&logo=flutter&logoColor=white)](#)
+
 
 ### Hobbies
+## 📊 Anime Stats
+<!-- ANILIST:START -->
+Loading…
+<!-- ANILIST:END -->
+
+
+
+[![Manga](https://img.shields.io/badge/📖%20Manga-8A2BE2?style=plastic)](#)
+[![Gaming](https://img.shields.io/badge/🎮%20Gaming-00BFFF?style=plastic)](#)
+[![GameDev](https://img.shields.io/badge/🕹️%20Game%20Development-32CD32?style=plastic)](#)
+
 
 ### social media 
 
