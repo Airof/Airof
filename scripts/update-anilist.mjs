@@ -58,31 +58,6 @@ function renderBlock(data) {
   const a = u.statistics?.anime ?? {};
   const m = u.statistics?.manga ?? {};
   const daysWatched = (a.minutesWatched ?? 0) / 60 / 24;
-
-  return [
-    '',
-    `**Profile:** [${u.name}](${u.siteUrl})`,
-    '',
-    '| Metric | Anime | Manga |',
-    '|---|---:|---:|',
-    `| Count | ${fmt(a.count)} | ${fmt(m.count)} |`,
-    `| Episodes watched | ${fmt(a.episodesWatched)} | — |`,
-    `| Minutes watched | ${fmt(a.minutesWatched)} | — |`,
-    `| ~Days watched | ${daysWatched.toFixed(1)} | — |`,
-    `| Mean score | ${fmt(a.meanScore)} | ${fmt(m.meanScore)} |`,
-    `| Chapters read | — | ${fmt(m.chaptersRead)} |`,
-    `| Volumes read | — | ${fmt(m.volumesRead)} |`,
-    ''
-  ].join('\n');
-}
-
-function renderBlock(data) {
-  const u = data?.User;
-  if (!u) return '\n_Unable to load AniList data at this time._\n';
-
-  const a = u.statistics?.anime ?? {};
-  const m = u.statistics?.manga ?? {};
-  const daysWatched = (a.minutesWatched ?? 0) / 60 / 24;
   const fmt = n => new Intl.NumberFormat('en-US').format(n ?? 0);
 
   return [
