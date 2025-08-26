@@ -194,10 +194,10 @@ Loading…
 
 ### 🎮 Games I Love
 <p>
-  <img src="icons/games/minecraft.svg" width="80" alt="Minecraft"/>
-  <!-- <img src="icons/games/stardew.png" width="40" alt="Stardew Valley"/> -->
-  <img src="icons/games/hollow_knight.png" width="80" alt="Hollow Knight"/>
-  <img src="icons/games/cyberpunk.gif" width="80" alt="Cyberpunk 2077"/>
+  <img src="icons/Games/minecraft.svg" width="80" alt="Minecraft"/>
+  <!-- <img src="icons/Games/stardew.png" width="40" alt="Stardew Valley"/> -->
+  <img src="icons/Games/hollow_knight.png" width="80" alt="Hollow Knight"/>
+  <img src="icons/Games/cyberpunk.gif" width="80" alt="Cyberpunk 2077"/>
 </p>
 
 
