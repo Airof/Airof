@@ -76,26 +76,41 @@ function renderBlock(data) {
   ].join('\n');
 }
 
-async function updateReadme(block) {
-  let readme = await readFile(README_PATH, 'utf8');
+function renderBlock(data) {
+  const u = data?.User;
+  if (!u) return '\n_Unable to load AniList data at this time._\n';
 
-  // If markers are missing, append a section at the end for safety.
-  if (!readme.includes(START) || !readme.includes(END)) {
-    readme += `\n\n## 📊 Anime Stats\n${START}\n${block}\n${END}\n`;
-    await writeFile(README_PATH, readme, 'utf8');
-    console.log('Inserted AniList section and updated README.');
-    return;
-  }
+  const a = u.statistics?.anime ?? {};
+  const m = u.statistics?.manga ?? {};
+  const daysWatched = (a.minutesWatched ?? 0) / 60 / 24;
+  const fmt = n => new Intl.NumberFormat('en-US').format(n ?? 0);
 
-  const pattern = new RegExp(`${START}[\\s\\S]*?${END}`);
-  const next = readme.replace(pattern, `${START}\n${block}\n${END}`);
-  if (next !== readme) {
-    await writeFile(README_PATH, next, 'utf8');
-    console.log('README updated with AniList stats.');
-  } else {
-    console.log('No changes to README (AniList stats unchanged).');
-  }
+  return [
+    '',
+    `[![AniList Profile](https://img.shields.io/badge/AniList-${encodeURIComponent(u.name)}-02A9FF?style=for-the-badge&logo=anilist&logoColor=white)](${u.siteUrl})`,
+    '',
+    '### 🎬 Anime Statistics',
+    '',
+    '| Metric | Value |',
+    '|---|---:|',
+    `| Count | ${fmt(a.count)} |`,
+    `| Episodes watched | ${fmt(a.episodesWatched)} |`,
+    `| Minutes watched | ${fmt(a.minutesWatched)} |`,
+    `| ~Days watched | ${daysWatched.toFixed(1)} |`,
+    `| Mean score | ${fmt(a.meanScore)} |`,
+    '',
+    '### 📚 Manga Statistics',
+    '',
+    '| Metric | Value |',
+    '|---|---:|',
+    `| Count | ${fmt(m.count)} |`,
+    `| Chapters read | ${fmt(m.chaptersRead)} |`,
+    `| Volumes read | ${fmt(m.volumesRead)} |`,
+    `| Mean score | ${fmt(m.meanScore)} |`,
+    ''
+  ].join('\n');
 }
+
 
 (async () => {
   const data = await fetchAniList(USERNAME);
