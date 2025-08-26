@@ -177,7 +177,7 @@
 ## 📊 Anime Stats
 <!-- ANILIST:START -->
 
-[![AniList Profile](https://img.shields.io/badge/AniList-Airof-02A9FF?style=for-the-badge&logo=anilist&logoColor=white)](https://anilist.co/user/7379629)
+[![AniList Profile](https://img.shields.io/badge/AniList-Airof-02A9FF?style=plastic&logo=anilist&logoColor=white)](https://anilist.co/user/7379629)
 
 ### 🎬 Anime Statistics
 
