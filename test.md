@@ -30,7 +30,7 @@
 
 ### Technical Languages
 <!-- Technical Languages -->
-<p align="center">
+<p>
 <table>
   <tr>
     <td align="center" style="padding:0 14px;">
@@ -56,9 +56,9 @@
 
 ### Databases
 
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=plastic&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=plastic&logo=sqlite&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=plastic&logo=mongodb&logoColor=white)
 
 
 ### Game Engines
@@ -102,8 +102,7 @@
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=plastic&logo=docker&logoColor=white)](#) 
 [![CI/CD](https://img.shields.io/badge/CI%2FCD-6A1B9A?style=plastic)](#)
 
-**Simulation / Design / Embedded:**  
-[![ModelSim](https://img.shields.io/badge/ModelSim-FF5722?style=plastic)](#) 
+**Simulation / Design / Embedded:** [![ModelSim](https://img.shields.io/badge/ModelSim-FF5722?style=plastic)](#) 
 [![Proteus](https://img.shields.io/badge/Proteus-1F62A0?style=plastic)](#) 
 [![Inkscape](https://img.shields.io/badge/Inkscape-000000?style=plastic&logo=inkscape&logoColor=white)](#) 
 [![Arduino IDE](https://img.shields.io/badge/Arduino-00979D?style=plastic&logo=arduino&logoColor=white)](#) 
@@ -114,7 +113,7 @@
 
 
 
-### Skills
+### Skills:
 
 <!-- Soft / Professional Skills -->
 [![Problem Solving](https://img.shields.io/badge/Problem%20Solving-4CAF50?style=plastic)](#)
@@ -151,19 +150,19 @@
 <table>
   <tr>
     <td align="center" style="padding:0 18px;">
-      <img src="icons/cctv-svgrepo-com.svg" width="48" alt="CCTV">
+      <img src="icons/electricity/cctv-svgrepo-com.svg" width="48" alt="CCTV">
     </td>
     <td align="center" style="padding:0 18px;">
-      <img src="icons/energy-industry-energetic-thunderbolt-power-svgrepo-com.svg" width="48" alt="Industrial Electricity">
+      <img src="icons/electricity/energy-industry-energetic-thunderbolt-power-svgrepo-com.svg" width="48" alt="Industrial Electricity">
     </td>
     <td align="center" style="padding:0 18px;">
-      <img src="icons/electricity-svgrepo-com.svg" width="48" alt="House Electricity">
+      <img src="icons/electricity/electricity-svgrepo-com.svg" width="48" alt="House Electricity">
     </td>
     <td align="center" style="padding:0 18px;">
-      <img src="icons/smart-home-svgrepo-com.svg" width="48" alt="Smart Home">
+      <img src="icons/electricity/smart-home-svgrepo-com.svg" width="48" alt="Smart Home">
     </td>
     <td align="center" style="padding:0 18px;">
-      <img src="icons/automation-svgrepo-com.svg" width="48" alt="Industrial Automation">
+      <img src="icons/electricity/automation-svgrepo-com.svg" width="48" alt="Industrial Automation">
     </td>
   </tr>
   <tr>
@@ -188,26 +187,42 @@
 
 
 ### Hobbies
-## 📊 Anime Stats
+#### 📊 Anilist Stats
 <!-- ANILIST:START -->
 Loading…
 <!-- ANILIST:END -->
 
+### 🎮 Games I Love
+<p align="center">
+  <img src="icons/games/minecraft.svg" width="80" alt="Minecraft"/>
+  <!-- <img src="icons/games/stardew.png" width="40" alt="Stardew Valley"/> -->
+  <img src="icons/games/hollow_knight.png" width="80" alt="Hollow Knight"/>
+  <img src="icons/games/cyberpunk.gif" width="80" alt="Cyberpunk 2077"/>
+</p>
 
 
-[![Manga](https://img.shields.io/badge/📖%20Manga-8A2BE2?style=plastic)](#)
-[![Gaming](https://img.shields.io/badge/🎮%20Gaming-00BFFF?style=plastic)](#)
-[![GameDev](https://img.shields.io/badge/🕹️%20Game%20Development-32CD32?style=plastic)](#)
 
 
-### social media 
 
-### how to contact me
+### 📬 How to Contact Me
+<p>
+  <a href="https://t.me/Airofff" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" width="40" height="40" alt="Telegram"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:fmhmhdairof@gmail.com">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_(2020).svg" width="40" height="40" alt="Email"/>
+  </a>
+</p>
 
-### anime stats + anilist link
 
-## stats 
-### pinned project
-### stats card
 
-### weather and images for weather
+## 📊 GitHub Stats
+
+![Airof's GitHub stats](https://github-readme-stats.vercel.app/api?username=Airof&show_icons=true&theme=tokyonight)
+
+### 📌 Pinned Projects
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Airof&repo=manga-reader&theme=tokyonight)](https://github.com/Airof/manga-reader)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Airof&repo=Notes&theme=tokyonight)](https://github.com/Airof/Notes)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Airof&repo=Mano-Machine&theme=tokyonight)](https://github.com/Airof/Mano-Machine)
