@@ -61,7 +61,7 @@ function renderBlock(data) {
 
   return [
     '',
-    `[![AniList Profile](https://img.shields.io/badge/AniList-${encodeURIComponent(u.name)}-02A9FF?style=for-the-badge&logo=anilist&logoColor=white)](${u.siteUrl})`,
+    `[![AniList Profile](https://img.shields.io/badge/AniList-${encodeURIComponent(u.name)}-02A9FF?style=plastic&logo=anilist&logoColor=white)](${u.siteUrl})`,
     '',
     '### 🎬 Anime Statistics',
     '',
