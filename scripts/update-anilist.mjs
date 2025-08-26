@@ -69,7 +69,7 @@ function renderBlock(data) {
     '|---|---:|',
     `| Count | ${fmt(a.count)} |`,
     `| Episodes watched | ${fmt(a.episodesWatched)} |`,
-    `| Minutes watched | ${fmt(a.minutesWatched)} |`,
+    // `| Minutes watched | ${fmt(a.minutesWatched)} |`,
     `| ~Days watched | ${Number.isFinite(daysWatched) ? daysWatched.toFixed(1) : '0.0'} |`,
     `| Mean score | ${fmt(a.meanScore)} |`,
     '',
