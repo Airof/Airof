@@ -7,7 +7,7 @@
 </div>
 
 <!-- WEATHER:START -->
-🌙 Night Owl Mode from **Shiraz** — **24°C**, ☀️ Clear · 💨 18 km/h (WNW)
+🌙 Night Owl Mode from **Shiraz** — **23°C**, ☀️ Clear · 💨 17 km/h (WNW)
 <!-- WEATHER:END -->
 
 
@@ -176,5 +176,17 @@
 ## hobbies
 ## 📊 Anime Stats
 <!-- ANILIST:START -->
-Loading…
+
+**Profile:** [Airof](https://anilist.co/user/7379629)
+
+| Metric | Anime | Manga |
+|---|---:|---:|
+| Count | 499 | 29 |
+| Episodes watched | 12,822 | — |
+| Minutes watched | 314,812 | — |
+| ~Days watched | 218.6 | — |
+| Mean score | 73.52 | 84.8 |
+| Chapters read | — | 7,604 |
+| Volumes read | — | 604 |
+
 <!-- ANILIST:END -->
