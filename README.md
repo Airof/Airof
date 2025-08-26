@@ -176,6 +176,27 @@
 ## hobbies
 ## 📊 Anime Stats
 <!-- ANILIST:START -->
-Loading…
+
+[![AniList Profile](https://img.shields.io/badge/AniList-Airof-02A9FF?style=for-the-badge&logo=anilist&logoColor=white)](https://anilist.co/user/7379629)
+
+### 🎬 Anime Statistics
+
+| Metric | Value |
+|---|---:|
+| Count | 499 |
+| Episodes watched | 12,822 |
+| Minutes watched | 314,812 |
+| ~Days watched | 218.6 |
+| Mean score | 73.52 |
+
+### 📚 Manga Statistics
+
+| Metric | Value |
+|---|---:|
+| Count | 29 |
+| Chapters read | 7,604 |
+| Volumes read | 604 |
+| Mean score | 84.8 |
+
 <!-- ANILIST:END -->
 
