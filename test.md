@@ -193,7 +193,7 @@ Loading…
 <!-- ANILIST:END -->
 
 ### 🎮 Games I Love
-<p align="center">
+<p>
   <img src="icons/games/minecraft.svg" width="80" alt="Minecraft"/>
   <!-- <img src="icons/games/stardew.png" width="40" alt="Stardew Valley"/> -->
   <img src="icons/games/hollow_knight.png" width="80" alt="Hollow Knight"/>
