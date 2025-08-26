@@ -7,7 +7,6 @@
 </div>
 
 <!-- WEATHER:START -->
-🌙 Night Owl Mode from **Shiraz** — **22°C**, ☀️ Clear · 💨 17 km/h (WNW)
 <!-- WEATHER:END -->
 
 
@@ -186,26 +185,6 @@
 ### Hobbies
 #### 📊 Anilist Stats
 <!-- ANILIST:START -->
-
-[![AniList Profile](https://img.shields.io/badge/AniList-Airof-02A9FF?style=plastic&logo=anilist&logoColor=white)](https://anilist.co/user/7379629)
-
-### 🎬 Anime Statistics
-
-| Metric | Value |
-|---|---:|
-| Count | 499 |
-| Episodes watched | 12,822 |
-| ~Days watched | 218.6 |
-| Mean score | 73.52 |
-
-### 📚 Manga Statistics
-
-| Metric | Value |
-|---|---:|
-| Count | 29 |
-| Chapters read | 7,604 |
-| Volumes read | 604 |
-| Mean score | 84.8 |
 
 <!-- ANILIST:END -->
 
