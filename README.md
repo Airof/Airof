@@ -7,7 +7,7 @@
 </div>
 
 <!-- WEATHER:START -->
-🌙 Night Owl Mode from **Shiraz** — **27°C**, ☀️ Clear · 💨 15 km/h (WNW) · _Updated: 2025-08-24 23:45 Asia/Tehran_
+🌙 Night Owl Mode from **Shiraz** — **24°C**, ☀️ Clear · 💨 18 km/h (WNW)
 <!-- WEATHER:END -->
 
 
