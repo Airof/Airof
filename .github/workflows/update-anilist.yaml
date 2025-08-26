@@ -1,15 +1,15 @@
-name: Update Weather (Shiraz)
+name: Update AniList Stats
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # every 30 minutes
+    - cron: "0 3 * * *"   # daily at 03:00 UTC
   workflow_dispatch: {}
 
 permissions:
   contents: write
 
 concurrency:
-  group: update-weather
+  group: update-anilist
   cancel-in-progress: true
 
 jobs:
@@ -31,8 +31,10 @@ jobs:
           git fetch origin main
           git rebase origin/main || (git rebase --abort && git reset --hard origin/main)
 
-      - name: Update README with Shiraz weather
-        run: node scripts/update-weather.mjs
+      - name: Update README with AniList stats
+        run: node scripts/update-anilist.mjs
+        env:
+          ANILIST_USERNAME: Airof
 
       - name: Commit & push if changed
         run: |
@@ -40,7 +42,7 @@ jobs:
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add README.md
-            git commit -m "chore: update weather (Shiraz)"
+            git commit -m "chore: update AniList stats"
             git pull --rebase origin main || true
             git push origin main
           else
