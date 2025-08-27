@@ -1,4 +1,4 @@
-name: Validate solution and reply
+name: Validate 4-Queens Token
 on:
   issues:
     types: [opened, edited]
@@ -11,40 +11,45 @@ jobs:
     if: contains(github.event.issue.labels.*.name, 'challenge')
     runs-on: ubuntu-latest
     steps:
-      - name: Check token and reply
+      - name: Extract token
+        id: extract
+        run: |
+          BODY="${{ github.event.issue.body }}"
+          # Get line after "### Token"
+          TOKEN=$(echo "$BODY" | awk '/### Token/{getline; print}' | xargs)
+          echo "token=$TOKEN" >> $GITHUB_OUTPUT
+
+      - name: Check token
+        id: check
+        run: |
+          if [ "${{ steps.extract.outputs.token }}" = "*@'queens_solved'@*" ]; then
+            echo "ok=1" >> $GITHUB_OUTPUT
+          else
+            echo "ok=0" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Reply success
+        if: steps.check.outputs.ok == '1'
         uses: actions/github-script@v7
         env:
           JOURNEY_MD: ${{ secrets.JOURNEY_MD }}
         with:
           script: |
-            const body = (context.payload.issue.body || "").trim();
-
-            // Exact match for the token with special chars. Use a plain string compare.
-            const TOKEN = "*@'queens_solved'@*";
-            const ok = body.includes(TOKEN);
-
-            if (!ok) {
-              await github.rest.issues.createComment({
-                owner: context.repo.owner, repo: context.repo.repo,
-                issue_number: context.issue.number,
-                body: "❌ Not quite. Make sure you solved the board and pasted the token exactly as shown."
-              });
-              return;
-            }
-
-            const journey = process.env.JOURNEY_MD || "_(Missing JOURNEY_MD secret)_";
             await github.rest.issues.createComment({
-              owner: context.repo.owner, repo: context.repo.repo,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
               issue_number: context.issue.number,
-              body: `✅ **Correct!** You unlocked Airof’s journal:\n\n${journey}`
-            });
+              body: `✅ Correct! You unlocked Airof’s journey:\n\n${process.env.JOURNEY_MD}`
+            })
 
-            // Optional: keep it tidy—close and lock the issue so it feels personal
-            await github.rest.issues.update({
-              owner: context.repo.owner, repo: context.repo.repo,
-              issue_number: context.issue.number, state: "closed"
-            });
-            await github.rest.issues.lock({
-              owner: context.repo.owner, repo: context.repo.repo,
-              issue_number: context.issue.number, lock_reason: "resolved"
-            });
+      - name: Reply fail
+        if: steps.check.outputs.ok != '1'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: "❌ Sorry, that token is not correct. Try again!"
+            })
