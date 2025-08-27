@@ -214,7 +214,7 @@
   <img src="assets/icons/Games/minecraft.svg" width="80" alt="Minecraft"/>
   <!-- <img src="assets/icons/Games/stardew.png" width="40" alt="Stardew Valley"/> -->
   <img src="assets/icons/Games/hollow_knight.png" width="80" alt="Hollow Knight"/>
-  <img src="assets/icons/Games/cyberpunk.svg" width="80" alt="Cyberpunk 2077"/>
+  <img src="assets/icons/Games/cyberpunk-2077.svg" width="80" alt="Cyberpunk 2077"/>
 </p>
 
 
