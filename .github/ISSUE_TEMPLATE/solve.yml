@@ -8,6 +8,6 @@ body:
     attributes:
       label: Token
       description: "Paste exactly the token shown by the game."
-      placeholder: "*@'queens_solved'@*"
+      placeholder: "the key"
     validations:
       required: true
