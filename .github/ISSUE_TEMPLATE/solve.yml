@@ -1,0 +1,13 @@
+name: Submit 4-Queens Token
+description: Paste the token from the 4-Queens game to unlock Airof’s journey.
+title: "Token submission"
+labels: ["challenge"]
+body:
+  - type: input
+    id: answer
+    attributes:
+      label: Token
+      description: Paste the token shown after solving the game.
+      placeholder: *@'queens_solved'@*
+    validations:
+      required: true

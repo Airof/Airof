@@ -232,7 +232,17 @@
   </a>
 </p>
 
+Want to know my journey?  
+First, solve the 4-Queens puzzle 🎮
 
+▶️ [Play the game](https://Airof.github.io/4queens/)
+
+Once you get the token, paste it here:  
+➡️ [Submit your token](../../issues/new?template=solve.yml)
+
+<!-- HIDDEN-START -->
+(Locked: solve to reveal Airof’s journey)
+<!-- HIDDEN-END -->
 
 ## 📊 GitHub Stats
 
