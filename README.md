@@ -7,7 +7,7 @@
 </div>
 
 <!-- WEATHER:START -->
-🌙 Night Owl Mode from **Shiraz** — **26°C**, ☀️ Clear · 💨 16 km/h (WNW)
+🌙 Night Owl Mode from **Shiraz** — **25°C**, 🌤 Mostly clear · 💨 13 km/h (WNW)
 <!-- WEATHER:END -->
 
 
