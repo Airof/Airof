@@ -194,7 +194,7 @@
 | Metric | Value |
 |---|---:|
 | Count | 506 |
-| Episodes watched | 12,917 |
+| Episodes watched | 12,921 |
 | ~Days watched | 220.3 |
 | Mean score | 73.5 |
 
