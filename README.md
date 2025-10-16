@@ -193,10 +193,10 @@
 
 | Metric | Value |
 |---|---:|
-| Count | 509 |
-| Episodes watched | 12,973 |
-| ~Days watched | 220.9 |
-| Mean score | 73.62 |
+| Count | 514 |
+| Episodes watched | 13,002 |
+| ~Days watched | 221.6 |
+| Mean score | 73.61 |
 
 ### 📚 Manga Statistics
 
