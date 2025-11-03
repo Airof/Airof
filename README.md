@@ -1,10 +1,10 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=ink+free&size=28&letterSpacing=0.3rem&pause=1000&color=1CF1FF&vCenter=true&width=435&lines=%23Hi+there,+I'm+Airof+👋;%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB%F0%9F%93%96%F0%9F%8E%AE%F0%9F%8C%90%E2%9A%A1;%F0%9F%97%A3%EF%B8%8F%F0%9F%8C%8D+%F0%9F%87%AB%F0%9F%87%A6+%F0%9F%87%AF%F0%9F%87%B5+%F0%9F%87%AA%F0%9F%87%B3)](https://git.io/typing-svg)
 
-<div align="center">
+<!--<div align="center">
   <img src="assets/gif/tumbleweed.gif" alt="rango">
   <img src="assets/gif/ezgif-15f88be964cccc.gif" alt="rango">
   <img src="assets/gif/tumbleweed.gif" alt="rango">
-</div>
+</div>-->
 
 <!-- WEATHER:START -->
 🌤 Good Afternoon from **Shiraz** — **26°C**, ☀️ Clear · 💨 26 km/h (SE)
