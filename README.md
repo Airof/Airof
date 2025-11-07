@@ -194,18 +194,18 @@
 | Metric | Value |
 |---|---:|
 | Count | 514 |
-| Episodes watched | 13,002 |
-| ~Days watched | 221.6 |
+| Episodes watched | 13,008 |
+| ~Days watched | 221.7 |
 | Mean score | 73.61 |
 
 ### 📚 Manga Statistics
 
 | Metric | Value |
 |---|---:|
-| Count | 30 |
-| Chapters read | 7,707 |
-| Volumes read | 604 |
-| Mean score | 83.85 |
+| Count | 31 |
+| Chapters read | 7,800 |
+| Volumes read | 612 |
+| Mean score | 82.96 |
 
 <!-- ANILIST:END -->
 
