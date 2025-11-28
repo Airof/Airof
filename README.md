@@ -7,7 +7,7 @@
 </div>-->
 
 <!-- WEATHER:START -->
-🌆 Good Evening from **Shiraz** — **9°C**, ☀️ Clear · 💨 20 km/h (NW)
+🌆 Good Evening from **Shiraz** — **9°C**, ☀️ Clear · 💨 18 km/h (NW)
 <!-- WEATHER:END -->
 
 
