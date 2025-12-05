@@ -202,10 +202,10 @@
 
 | Metric | Value |
 |---|---:|
-| Count | 34 |
-| Chapters read | 8,137 |
+| Count | 35 |
+| Chapters read | 8,258 |
 | Volumes read | 651 |
-| Mean score | 82.14 |
+| Mean score | 81.38 |
 
 <!-- ANILIST:END -->
 
