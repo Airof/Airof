@@ -7,7 +7,7 @@
 </div>-->
 
 <!-- WEATHER:START -->
-🌙 Night Owl Mode from **Shiraz** — **6°C**, 🌫 Fog · 💨 12 km/h (NW)
+🌙 Night Owl Mode from **Shiraz** — **5°C**, 🌫 Fog · 💨 15 km/h (WNW)
 <!-- WEATHER:END -->
 
 
