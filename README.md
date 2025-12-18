@@ -7,7 +7,7 @@
 </div>-->
 
 <!-- WEATHER:START -->
-🌆 Good Evening from **Shiraz** — **7°C**, 🌦 Light rain · 💨 27 km/h (ENE)
+🌙 Night Owl Mode from **Shiraz** — **7°C**, 🌦 Light rain · 💨 24 km/h (NE)
 <!-- WEATHER:END -->
 
 
