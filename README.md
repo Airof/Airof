@@ -202,8 +202,8 @@
 
 | Metric | Value |
 |---|---:|
-| Count | 35 |
-| Chapters read | 8,258 |
+| Count | 39 |
+| Chapters read | 9,663 |
 | Volumes read | 651 |
 | Mean score | 81.38 |
 
