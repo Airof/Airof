@@ -7,7 +7,7 @@
 </div>-->
 
 <!-- WEATHER:START -->
-🌙 Night Owl Mode from **Shiraz** — **3°C**, ☁️ Overcast · 💨 5 km/h (NW)
+☀️ Good Morning from **Shiraz** — **2°C**, ☁️ Overcast · 💨 6 km/h (N)
 <!-- WEATHER:END -->
 
 
