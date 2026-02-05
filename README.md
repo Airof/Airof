@@ -7,7 +7,7 @@
 </div>-->
 
 <!-- WEATHER:START -->
-🌤 Good Afternoon from **Shiraz** — **14°C**, 🌤 Mostly clear · 💨 23 km/h (ESE)
+🌤 Good Afternoon from **Shiraz** — **13°C**, ⛅ Partly cloudy · 💨 20 km/h (ESE)
 <!-- WEATHER:END -->
 
 
