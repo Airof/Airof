@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=ink+free&size=28&letterSpacing=0.3rem&pause=1000&color=1CF1FF&vCenter=true&width=435&lines=%23Hi+there,+I'm+Airof+👋;%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB%F0%9F%93%96%F0%9F%8E%AE%F0%9F%8C%90%E2%9A%A1;%F0%9F%97%A3%EF%B8%8F%F0%9F%8C%8D+%F0%9F%87%AB%F0%9F%87%A6+%F0%9F%87%AF%F0%9F%87%B5+%F0%9F%87%AA%F0%9F%87%B3)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=ink+free&size=28&letterSpacing=0.3rem&pause=1000&color=1CF1FF&vCenter=true&width=435&lines=%23Hi+there,+I'm+Airof;%23Hallo,+ich+bin+Airof;%E5%88%9D%E3%82%81%E3%81%BE%E3%81%97%E3%81%A6%E3%80%81%E3%82%A2%E3%82%A4%E3%83%AD%E3%83%95%E3%81%A7%E3%81%99;%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB%F0%9F%93%96%F0%9F%8E%AE%F0%9F%8C%90%E2%9A%A1;%F0%9F%97%A3%EF%B8%8F%F0%9F%8C%8D+%F0%9F%87%AB%F0%9F%87%A6+%F0%9F%87%AF%F0%9F%87%B5+%F0%9F%87%AA%F0%9F%87%B3+%F0%9F%87%A9%F0%9F%87%AA)](https://git.io/typing-svg)
 
 <!--<div align="center">
   <img src="assets/gif/tumbleweed.gif" alt="rango">
