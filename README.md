@@ -180,8 +180,8 @@
 ## Personal
 
 ### Currently Learning
-[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=plastic&logo=flutter&logoColor=white)](#)
-
+[![Lua](https://img.shields.io/badge/Lua-2C2D72?style=plastic&logo=lua&logoColor=white)](#)
+[![Verilog](https://img.shields.io/badge/Verilog-FF6600?style=plastic)](#)
 
 ### Hobbies
 #### 📊 Anilist Stats
@@ -232,7 +232,7 @@
   </a>
 </p>
 
-
+<!--ERROR
 ## 📊 GitHub Stats
 
 ![Airof's GitHub stats](https://github-readme-stats.vercel.app/api?username=Airof&show_icons=true&theme=tokyonight)
@@ -242,3 +242,5 @@
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Airof&repo=manga-reader&theme=tokyonight)](https://github.com/Airof/manga-reader)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Airof&repo=Notes&theme=tokyonight)](https://github.com/Airof/Notes)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Airof&repo=Mano-Machine&theme=tokyonight)](https://github.com/Airof/Mano-Machine)
+ERROR -->
+
