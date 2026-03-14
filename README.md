@@ -7,7 +7,7 @@
 </div>-->
 
 <!-- WEATHER:START -->
-☀️ Good Morning from **Shiraz** — **6°C**, 🌤 Mostly clear · 💨 8 km/h (NW)
+☀️ Good Morning from **Shiraz** — **6°C**, ☀️ Clear · 💨 10 km/h (WNW)
 <!-- WEATHER:END -->
 
 
