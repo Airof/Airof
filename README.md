@@ -7,7 +7,7 @@
 </div>-->
 
 <!-- WEATHER:START -->
-🌙 Night Owl Mode from **Shiraz** — **16°C**, 🌦 Rain showers · 💨 12 km/h (WNW)
+🌙 Night Owl Mode from **Shiraz** — **15°C**, ☁️ Overcast · 💨 10 km/h (W)
 <!-- WEATHER:END -->
 
 
