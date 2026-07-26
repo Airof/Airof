@@ -7,7 +7,7 @@
 </div>-->
 
 <!-- WEATHER:START -->
-🌙 Night Owl Mode from **Shiraz** — **25°C**, ⛅ Partly cloudy · 💨 12 km/h (NW)
+☀️ Good Morning from **Shiraz** — **24°C**, 🌤 Mostly clear · 💨 11 km/h (NW)
 <!-- WEATHER:END -->
 
 
